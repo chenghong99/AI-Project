@@ -447,7 +447,8 @@ def search(rows, cols, grid, enemy_pieces, own_pieces, goals):
                 visited[valid_moves[1]][valid_moves[0]] = node
                 
     return [], 0
-        
+
+## choice of heuristic function is  
 def euclidean_distance(curr, goals):
     smallest_val = 10000
     for goal in goals:

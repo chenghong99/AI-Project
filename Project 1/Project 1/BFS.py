@@ -504,5 +504,5 @@ def run_BFS():
     moves = search(rows, cols, grid, enemy_pieces, own_pieces, goals)
     return moves
 
-print(run_BFS())
-print("hello world")
+# print(run_BFS())
+# print("hello world")
